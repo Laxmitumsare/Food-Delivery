@@ -1,0 +1,168 @@
+body{
+    background-color:white
+
+}
+.padding{
+    padding-top:25px;
+        padding-bottom:20px;
+        padding-right:25px;
+        padding-left:25px;
+    }
+    .border{
+       border: 3px solid white;
+       text-align: center;
+       font-weight: bolder;
+       font-style: inherit;
+       font-size: larger;
+       background-image: linear-gradient(to top right, rgb(157, 51, 168),rgb(221, 229, 224));
+
+    }
+    .flexbox{
+        display: flex;
+        height: 60px;
+        flex-wrap: wrap;
+        align-content: space-between;
+        background-color:rgb(175, 98, 168);
+    }
+    .flexbox>div{
+        background: white;
+        width: 265px;
+        margin: 10px;
+        flex-wrap: wrap;
+        align-content: space-between;
+        text-align: center;
+        line-height:30px;
+       font-size: 21px; 
+       font-style: bold;
+
+    }
+    .item{
+        padding: -10px;
+        padding-bottom: -20px;
+        height: 30%;   
+    }
+
+    .centre{
+        text-align: center;
+    }
+
+.section{
+    
+    padding: -10%;  
+    border:10px darkorchid;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+}
+
+.sectionimg{
+   display: flex;
+   gap: 15%;
+
+}
+
+.imgborder{
+    border-radius: 3%;
+    border-style: double;
+    border-color:white;
+}
+.btn{
+    background-color:aliceblue;
+    border-radius: 3px ;
+   border-width: 10px;
+    text-align: center;
+    text-decoration: double;
+    margin: auto;
+    margin-left: 40%;
+    height: 10%;
+    margin: 30px;
+    margin-left: 250px;
+}
+.textfont{
+
+    font: bolder;
+    font-size: larger; 
+    font-style: oblique;
+
+}
+
+body {
+    padding: 10px 50px;
+}
+
+.formdesign {
+    font-size: 20px;
+
+}
+
+.formdesign input {
+    width: 200%;
+    padding: 12px;
+    border: 1px solid blue;
+    margin: 14px;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: violet;
+}
+
+.formerror {
+    color: red;
+}
+
+.but {
+    border-radius: 9px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    margin: 22px 20px;
+    
+}
+.formsection{
+   display: flex 20px;
+   flex-wrap: 10px;
+}
+.flexform{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color:white;
+
+}
+
+.section>img{
+    height: 400px;
+  margin-left: 250px;
+  margin-bottom: 30px;
+    
+}
+.mid{
+    text-align: center;
+    font-weight: bolder;
+    font-style: inherit;
+    font-size: larger;
+    font-style: inherit;
+}
+.borderlast{
+    display: flex;
+    height: 450px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color:rgb(175, 98, 168);
+}
+.borderlast > div{
+    padding: 10px;
+    padding-top: 4%;
+    padding-left: 50px;
+    height: 400px;
+    width: 350px;
+}
+
+.midin > div{
+    display: flex;
+    flex-wrap: 20px;
+
+}
